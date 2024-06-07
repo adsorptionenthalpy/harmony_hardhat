@@ -1,4 +1,4 @@
-const hre = require("hardhat");
+require ("@nomiclabs/hardhat-waffle");
 require('dotenv').config()
 
 const { CUSTODIANS_LOCAL, CUSTODIANS_DEVNET, CUSTODIANS_TESTNET, CUSTODIANS_MAINNET } = process.env;
